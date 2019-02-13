@@ -5,7 +5,7 @@ connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "",
+    password: "", //password here
     database:"bamazon"
 });
 
@@ -20,7 +20,7 @@ function displayItems(){
     connection.query(query, function(err, res){
         for(var i = 0; i < res.length; i++){
             console.log("Product ID: "+res[i].id +" || Product Name: "+res[i].product_name+
-            " || Deparment Name : "+ res[i].department_name+" || Price: "+res[i].price+
+            " || Department Name : "+ res[i].department_name+" || Price: "+res[i].price+
             " || Stock Quantity: "+res[i].stock_quantity+"\n--------------------");
         }
     });
