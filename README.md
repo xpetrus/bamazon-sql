@@ -1,5 +1,5 @@
 # bamazon-sql
-bamazonCustomer.js is a program that functions as a CLI based storefront simulator.
+bamazonCustomer.js is a program that functions as a CLI based storefront simulator. <br/>
 Through taking user input, bamazon is able to retireve and update information from an sql database.
 
 ## Actions
