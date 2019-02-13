@@ -36,7 +36,7 @@ function startApp(){
             choices:[
                 "Display Items in Inventory",
                 "Make Purchase",
-                "Exit"
+                "Exit\n"
             ]
         }
     ]).then(function(response){
